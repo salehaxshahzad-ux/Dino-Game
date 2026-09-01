@@ -27,17 +27,3 @@ A lightweight, terminal-based recreation of the classic Google Chrome Offline Di
 
 ---
 
-## 🛠️ Project Structure & Technical Fixes
-
-During development, several real-world console programming challenges were solved:
-1. **Encoding Glitches:** Replaced extended Unicode block characters with standard ASCII characters (`@`, `#`) to resolve character decoding errors across standard Dev-C++ / TDM-GCC compilers.
-2. **Buffer Trails & Artifacts:** Implemented explicit coordinate tracking with `gotoxy()` to wipe out trailing screen artifacts during high-speed movement.
-3. **Stream Memory Safety:** Implemented manual pointer allocations for reading and bubble-sorting file streams to avoid file buffer locks.
-
----
-
-## 🚀 How to Run
-
-1. Clone this repository:
-   ```bash
-   git clone [https://github.com/your-username/cpp-dino-runner.git](https://github.com/your-username/cpp-dino-runner.git)
